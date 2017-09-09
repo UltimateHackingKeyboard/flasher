@@ -1,3 +1,4 @@
 #!/bin/sh
 
-`dirname $0`/bin/JLinkExe -If SWD -CommandFile ../shared/uhk-left.jlink
+current_dir=`dirname $0`
+$current_dir/bin/JLinkExe -If SWD -CommandFile $current_dir/../shared/uhk-left.jlink
