@@ -1,0 +1,11 @@
+#!/bin/bash
+
+machine=`uname --machine`
+case $machine in
+x86_64)
+    jlink-x86/JLinkExe $*
+    ;;
+armv7l)
+    jlink-arm/JLinkExe $*
+    ;;
+esac
