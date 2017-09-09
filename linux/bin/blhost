@@ -1,0 +1,11 @@
+#!/bin/bash
+
+machine=`uname --machine`
+case $machine in
+x86_64)
+    `dirname $0`/blhost-x86 $*
+    ;;
+armv7l)
+    `dirname $0`/blhost-arm $*
+    ;;
+esac
