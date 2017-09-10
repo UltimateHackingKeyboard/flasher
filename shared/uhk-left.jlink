@@ -1,4 +1,5 @@
 speed 4000
 device MKL03Z32xxx4
 connect
-loadfile ../shared/uhk-left.srec
+loadfile uhk-left.srec
+exit
