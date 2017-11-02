@@ -3,5 +3,5 @@ device MK22FN512xxx12
 unlock Kinetis
 connect
 erase
-loadfile uhk-bootloader.srec
+loadfile uhk-bootloader.hex
 exit
