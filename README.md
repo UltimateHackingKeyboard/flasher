@@ -5,7 +5,7 @@ This repo contains a couple of scripts and their dependencies which flash the bo
 
 ## Instructions
 
-### Prerequisits
+### Prerequisites
 
 Hardware
 ---
