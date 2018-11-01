@@ -1,1 +1,3 @@
 firmware
+*.hex
+*.tar.bz2
